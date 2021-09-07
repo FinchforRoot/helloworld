@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8000
+spring:
+  config:
+    activate:
+      on-profile: local
+
+---
+server:
+  port: 8001
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+---
+server:
+  port: 8002
+spring:
+  config:
+    activate:
+      on-profile: test
+
+---
+server:
+  port: 8003
+spring:
+  config:
+    activate:
+      on-profile: pro
+

@@ -1,0 +1,6 @@
+server:
+  port: 8000
+spring:
+  config:
+    activate:
+      on-profile: local

@@ -1,0 +1,6 @@
+server:
+  port: 8002
+spring:
+  config:
+    activate:
+      on-profile: test
